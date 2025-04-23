@@ -18,7 +18,9 @@ PUSH TO GIT:
 4. Type "git init" => to initialize.
 5. Type "git remote and origin (paste the link) https://github.com/pagtulun-an/json-server-practice.git
 6. git add .  => to add everything.
-
+7. git commit -m "First commit" => to commi to github
+8. git push origin master => to push in github 
 
 USEFUL LINKS:
 https://www.npmjs.com/
+https://dashboard.render.com/ (login via connecting to github)
