@@ -1,0 +1,24 @@
+
+npm init -y => create package.json file.
+npm i json-server => create node_module file.
+npm i nodemon => to show immediately the changes instead of restarting the server
+
+Run json server:
+json-server --watch db.json --port (port no. here)
+json-server --watch db.json (if already have port no stored in .env file)
+
+json-server will run automatically in port 300. To use the desired port put this "start": "node index.js" 
+in the package.json file below "test" then use npm start instead of  json-server --watch db.json
+
+
+PUSH TO GIT:
+1. Create Repository in git.
+2. After created copy the link like "https://github.com/pagtulun-an/json-server-practice.git"
+3. Goto terminal make sure you in project directory.
+4. Type "git init" => to initialize.
+5. Type "git remote and origin (paste the link) https://github.com/pagtulun-an/json-server-practice.git
+6. git add .  => to add everything.
+
+
+USEFUL LINKS:
+https://www.npmjs.com/
